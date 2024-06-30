@@ -1,0 +1,14 @@
+@import url("./css/header.css");
+@import url("./css/productdetails.css");
+@import url("./css/mainhomepage.css");
+@import url("./css/LoginModel.css");
+
+:root {
+  --var-primary-color: #6930CA;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

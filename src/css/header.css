@@ -1,0 +1,55 @@
+.headermenu {
+
+    width: fit-content;
+}
+
+.brand-logo {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.homeloginbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var-primary-color);
+    color: #fff;
+}
+
+.homeloginbtn:hover {
+    background-color: #69499f;
+    color: #fff;
+    border-color: #8646eb;
+    filter: drop-shadow(0px 0px 24px #6930CA);
+}
+
+.searchdeskop {
+    width: 100%;
+}
+
+header {
+    background: #666;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.navberfixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width:576px) {
+    .brand-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logomenu {
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,20 @@
+.logincol1 {
+    background: #FFEACB;
+    height: 600px;
+    position: relative;
+    max-width: 391px;
+}
+
+.loginshopicon {
+    position: absolute;
+    bottom: 0;
+}
+
+/* .logincloudimg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+} */
+.loginmodelbg .modal-header {
+    background: #FFEACB;
+}
